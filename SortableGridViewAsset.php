@@ -14,7 +14,7 @@ class SortableGridViewAsset extends AssetBundle {
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\jui\JuiAsset',
-        'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\bootstrap4\BootstrapAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
     ];
 }
