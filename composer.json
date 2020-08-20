@@ -28,6 +28,6 @@
 	"require" : {
 		"yiisoft/yii2" : "*",
 		"yiisoft/yii2-jui" : "*",
-		"yiisoft/yii2-bootstrap" : "~2.0.0"
+		"yiisoft/yii2-bootstrap4" : "~2.0.0"
 	}
 }
