@@ -41,6 +41,8 @@ class SortableGridView extends GridView {
      * @var string
      */
     public $moveItem = '';
+	
+    public $noModal = false;
 
     public function init(){
         parent::init();
@@ -92,6 +94,7 @@ class SortableGridView extends GridView {
             'sortingPromptText' => $this->sortingPromptText,
             'sortingFailText' => $this->failText,
             'moveItem' => $this->moveItem,
+	    'noModal' => $this->noModal,
             'csrfTokenName' => \Yii::$app->request->csrfParam,
             'csrfToken' => \Yii::$app->request->csrfToken,
         ];
